@@ -1,0 +1,16 @@
+{
+  "name": "t3-privagent-os",
+  "version": "1.0.0",
+  "description": "Privacy-Preserving Smart Verifiable Credentials & Attested AI Compliance Agent built on @terminal3/t3n-sdk and @terminal3/ecdsa_vc",
+  "main": "src/t3_sdk_engine.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve web -l 8082"
+  },
+  "dependencies": {
+    "@terminal3/t3n-sdk": "^1.0.0",
+    "@terminal3/ecdsa_vc": "^1.0.0"
+  },
+  "author": "Tung Nguyen (@tungdeptrai07)",
+  "license": "MIT"
+}
